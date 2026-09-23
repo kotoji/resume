@@ -16,7 +16,7 @@
 
 ## Professional Summary
 
-Accomplished Software Engineer with over 8.5 years of experience architecting and developing web backends, data platforms, and cloud infrastructure.
+Accomplished Software Engineer with over 7.5 years of experience architecting and developing web backends, data platforms, and cloud infrastructure.
 
 At E-Grant, Inc., spearheaded the architectural design and implementation of core CRM products and next-generation infrastructure. Led the greenfield development of a Customer Data Platform (CDP) / Data Warehouse (DWH) backend using a Go modular monolith architecture and gRPC, and advanced the next-generation modern data stack with Apache Iceberg and Apache Spark. Solely led an enterprise-wide Single Sign-On (SSO) unification based on Keycloak (OIDC/OAuth 2.0), and drove generative AI / LLM prototyping initiatives using Mastra and Dify. Previously contributed to computational fluid dynamics (CFD) simulation software using Haskell and Python at Deepflow, Inc., and engineered critical backend dispatch engines for disaster safety confirmation services at YMIRLINK, Inc.
 
