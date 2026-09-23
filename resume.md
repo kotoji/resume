@@ -49,7 +49,7 @@
 <td>リード<br/>1人</td>
 </tr>
 <tr>
-<td>2022/01 〜<br/>2026/10</td>
+<td>2023/10 〜<br/>2026/10</td>
 <td>
 <p><strong>CDP・DWH プロジェクト</strong></p>
 データウェアハウス(DWH)アプリケーションおよびgRPCバックエンドの設計〜実装を主導。Iceberg/Sparkを用いたモダンデータ基盤への刷新を推進。
@@ -57,16 +57,6 @@
 <td>Go<br/>Python</td>
 <td>gRPC, PostgreSQL<br/>Apache Spark<br/>Apache Iceberg</td>
 <td>実質テックリード<br/>2人→6人</td>
-</tr>
-<tr>
-<td>2023/12 〜<br/>2024/06</td>
-<td>
-<p><strong>シングルサインオン (SSO) プロジェクト</strong></p>
-新規サービス群の認証基盤統合。OIDC/OAuth2.0に準拠したKeycloakによる認証基盤の設計・実装および各サービス横断の連携を単独完遂。
-</td>
-<td>Go<br/>TypeScript<br/>PHP</td>
-<td>Keycloak<br/>OIDC, OAuth 2.0<br/>AWS ECS, Lambda</td>
-<td>主担当<br/>1人</td>
 </tr>
 <tr>
 <td>2023/08 〜<br/>2023/12</td>
@@ -87,6 +77,16 @@
 <td>PHP<br/>Go</td>
 <td>Laravel, ECS<br/>Terraform, PostgreSQL</td>
 <td>サブリーダー<br/>4人</td>
+</tr>
+<tr>
+<td>2021/10 〜<br/>2026/10</td>
+<td>
+<p><strong>シングルサインオン (SSO) プロジェクト</strong></p>
+新規サービス群の認証基盤統合。OIDC/OAuth2.0に準拠したKeycloakによる認証基盤の設計・実装および各サービス横断の連携を単独完遂。
+</td>
+<td>Go<br/>TypeScript<br/>PHP</td>
+<td>Keycloak<br/>OIDC, OAuth 2.0<br/>AWS ECS, Lambda</td>
+<td>主担当<br/>1人</td>
 </tr>
 </table>
 
