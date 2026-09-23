@@ -6,7 +6,7 @@
 | --- | --- |
 | 氏名 | 門脇 健一郎 |
 | 生年月日 | 1991年4月13日 |
-| Mail | koto.chiba.none@gmail.com |
+| Mail | kenichiro.kadowaki@ithnote.blue |
 
 ## 職務概要
 
