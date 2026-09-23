@@ -1,5 +1,7 @@
 # 職務経歴書
 
+> 📄 **English Version**: [resume-en.md](./resume-en.md)
+
 ## 基本情報
 
 | key | value |
