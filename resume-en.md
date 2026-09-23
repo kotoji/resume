@@ -119,26 +119,26 @@ Independently architected and implemented company-wide identity and access manag
   - Adopted tag/attribute-based metadata management (inspired by Docker labels and Obsidian) rather than rigid hierarchical directory structures, dramatically improving extensibility.
   - Spearheaded PoCs and architectural planning for next-gen big-data workloads using **AWS EMR (Spark) + S3 Tables (Apache Iceberg) + Jupyter Notebook (ECS)**.
 
-#### 3. Enterprise Single Sign-On (SSO) Platform (Oct 2021 – Oct 2026)
-- **Keywords**: Keycloak, OpenID Connect (OIDC), OAuth 2.0, Go, TypeScript, AWS Lambda, ALB, ECS, Route 53, Laravel
-- **Responsibilities & Outcomes**:
-  - Independently took full ownership of designing, building, and rolling out an enterprise-grade IAM/SSO infrastructure to centralize user identity across multi-product suites.
-  - Built an industry-standard **Keycloak** identity foundation compliant with OIDC / OAuth 2.0, conducted security risk assessments, and created client SDKs / Lambda authenticators for cross-service integration.
-  - Authored tailored technical guides and architectural blueprints, establishing consensus across disparate product teams through clear, opinionated specifications.
-
-#### 4. Offshore Service Containerization & CI/CD Pipeline (Aug 2023 – Dec 2023)
+#### 3. Offshore Service Containerization & CI/CD Pipeline (Aug 2023 – Dec 2023)
 - **Keywords**: PHP, Laravel, AWS ECS, AWS CodeDeploy, AWS CodePipeline, Terraform
 - **Responsibilities & Outcomes**:
   - Integrated and refactored multiple services developed by offshore teams; migrated logging and configuration to conform with 12-Factor App standards.
   - Constructed automated CI/CD delivery pipelines on AWS ECS, ensuring consistent, repeatable production deployments.
   - Organized company-wide **Terraform Study Sessions** to eliminate IaC anti-patterns (such as post-manual-setup imports), instilling declarative IaC standards and code review practices.
 
-#### 5. Multi-Tenant Analytics Service Modernization (Aug 2022 – Aug 2023)
+#### 4. Multi-Tenant Analytics Service Modernization (Aug 2022 – Aug 2023)
 - **Keywords**: PHP, Laravel, Go, Aurora PostgreSQL, AWS ECS, Terraform
 - **Responsibilities & Outcomes**:
   - Spearheaded codebase redesign to replace a legacy CakePHP / MySQL 5.6 monolith with a modern multi-tenant service.
   - Implemented dynamic dependency injection (DI) tied to the request lifecycle for robust tenant isolation. Introduced Go for high-speed CLI automation tooling.
   - Architected a completely stateless ECS infrastructure managed via Terraform, eliminating legacy anti-patterns (such as shared EFS mounts), and led team hands-on sessions for cloud readiness.
+
+#### 5. Enterprise Single Sign-On (SSO) Platform (Oct 2021 – Oct 2026)
+- **Keywords**: Keycloak, OpenID Connect (OIDC), OAuth 2.0, Go, TypeScript, AWS Lambda, ALB, ECS, Route 53, Laravel
+- **Responsibilities & Outcomes**:
+  - Independently took full ownership of designing, building, and rolling out an enterprise-grade IAM/SSO infrastructure to centralize user identity across multi-product suites.
+  - Built an industry-standard **Keycloak** identity foundation compliant with OIDC / OAuth 2.0, conducted security risk assessments, and created client SDKs / Lambda authenticators for cross-service integration.
+  - Authored tailored technical guides and architectural blueprints, establishing consensus across disparate product teams through clear, opinionated specifications.
 
 ---
 

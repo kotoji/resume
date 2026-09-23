@@ -109,25 +109,25 @@
   - お膳立て（Easyness）を重視するあまり複雑怪奇（Complex）化していた既存分析機能を打破し、「ユーザーが直接SQLを扱えるシンプルな構成」を提案・実現して社内表彰を受賞。
   - さらなる大規模データ活用を見据え、AWS EMR (Spark) + S3 Tables (Apache Iceberg) + Jupyter Notebook (ECS) による次世代データ基盤のアーキテクチャ設計・PoCを推進しました。
 
-**3. シングルサインオン (SSO) プロジェクト**
-- **Keyword**: Keycloak, OpenID Connect (OIDC), OAuth 2.0, Go, TypeScript, AWS Lambda, AWS VPC, AWS ALB, AWS ECS, AWS Route53, Laravel
-- **概要**:
-  - マルチプロダクト化に伴い、各プロダクトで個別管理されかけていた認証・ユーザー情報を中央集約し、シングルサインオンを実現する全社認証基盤を単独で主導。
-  - 業界標準のOIDC / OAuth 2.0 に準拠した Keycloak ベースの基盤構築、全社アーキテクチャ策定、セキュリティリスクアセスメント、各サービス連携用のSDK/Lambda開発、既存プロダクトの認証改修を一貫して遂行しました。
-  - 専門知識の浸透に向けて自社コンテキストに特化した解説ドキュメントを執筆し、オピニオネイテッドな仕様策定により各チーム間の合意形成を加速させました。
-
-**4. オフショア開発サービスのコンテナ化・CI/CD実装**
+**3. オフショア開発サービスのコンテナ化・CI/CD実装**
 - **Keyword**: PHP, Laravel, AWS ECS, AWS CodeDeploy, AWS CodePipeline, Terraform
 - **概要**:
   - オフショア開発による複数サービスを改修・結合し、ログ出力のstdout化等12-Factor Appに準拠したコンテナ化およびCI/CDパイプラインを構築して社内リリースを完遂。
   - 手動構築後のimportというIaCのアンチパターンを是正するため、思想や歴史から説く「Terraform勉強会」を主催。全社的なIaC標準化およびTerraformコードのレビュー体制を確立しました。
 
-**5. 分析サービスプロジェクト**
+**4. 分析サービスプロジェクト**
 - **Keyword**: PHP, Laravel, Go, Aurora PostgreSQL, AWS ECS, AWS CodeDeploy, AWS CodePipeline, Terraform
 - **概要**:
   - レガシー（MySQL 5.6 / CakePHP）な分析機能の刷新とマルチプロダクト化を推進。サブリーダーとしてコードベース設計を主導。
   - Laravelのサービスコンテナライフサイクルを活用し、リクエストに応じた動的DIによる高度なマルチテナント分離アーキテクチャを設計・実装。また、CLI・自動化ツールとしてGoを初導入。
   - EFSマウント等のアンチパターンを排除したステートレスなECSインフラをTerraformで構築するとともに、「ECSハンズオン」を主催してチームのクラウド移行を牽引しました。
+
+**5. シングルサインオン (SSO) プロジェクト**
+- **Keyword**: Keycloak, OpenID Connect (OIDC), OAuth 2.0, Go, TypeScript, AWS Lambda, AWS VPC, AWS ALB, AWS ECS, AWS Route53, Laravel
+- **概要**:
+  - マルチプロダクト化に伴い、各プロダクトで個別管理されかけていた認証・ユーザー情報を中央集約し、シングルサインオンを実現する全社認証基盤を単独で主導。
+  - 業界標準のOIDC / OAuth 2.0 に準拠した Keycloak ベースの基盤構築、全社アーキテクチャ策定、セキュリティリスクアセスメント、各サービス連携用のSDK/Lambda開発、既存プロダクトの認証改修を一貫して遂行しました。
+  - 専門知識の浸透に向けて自社コンテキストに特化した解説ドキュメントを執筆し、オピニオネイテッドな仕様策定により各チーム間の合意形成を加速させました。
 
 **その他**:
 - 単機能分析アプリ / 社内向け受注管理アプリの新規開発
